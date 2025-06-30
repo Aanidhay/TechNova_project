@@ -48,7 +48,7 @@ def chat():
         # bot_response = response_data.get('response', 'Sorry, something went wrong.')
         
         # Use Gemini/PaLM to generate a response
-        model = genai.GenerativeModel("models/gemini-pro")
+        model = genai.GenerativeModel("models/gemini-1.5-pro-latest")
         response = model.generate_content([message])
         bot_response = response.text
 
