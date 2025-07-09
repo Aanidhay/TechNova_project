@@ -8,6 +8,8 @@
     <title>TechNova</title>
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,10 +23,10 @@
             <ul>
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#About">About</a></li>
-                <li><a href="#Menu">Menu</a></li>
-                <li><a href="#Gallary">Gallary</a></li>
-                <li><a href="#Review">Review</a></li>
-                <li><a href="#Order">Order</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#Categories">Categories</a></li>
+                <li><a href="#Review">Reviews</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
 
             <div class="icon">
@@ -38,21 +40,22 @@
         <div class="main">
 
             <div class="men_text">
-                <h1>Your<span>One-Stop</span><br>Online Marketplace</h1>
+                <h1>Your<span>Tech</span><br>Destination</h1>
             </div>
 
             <div class="main_image">
-                <img src="static/image/products.jpg" alt="TechNova Products">
+                <img src="static/image/intro.jpg" alt="TechNova Products">
             </div>
 
         </div>
 
         <p>
             <br><br><br>
-            Welcome to our E-commerce website, your trusted online shopping destination! We're passionate about bringing you a curated selection of high-quality products at competitive prices. From fashion and electronics to home essentials, our mission is to make shopping seamless, secure, and enjoyable. With fast shipping, easy returns, and exceptional customer support, we're here to redefine your online shopping experience. Join our community and shop with confidence today! </p>
+            Welcome to TechNova, your premier destination for cutting-edge technology! We specialize in bringing you the latest smartphones, laptops, gaming equipment, smartwatches, and premium tech accessories from top global brands. Our mission is to make advanced technology accessible, affordable, and reliable. With authentic products, competitive prices, lightning-fast delivery, and dedicated customer support, we're here to fuel your passion for innovation. Discover the future of technology today!
+        </p>
 
         <div class="main_btn">
-            <a href="#">Order Now</a>
+            <a href="#Products">Shop Now</a>
             <i class="fa-solid fa-angle-right"></i>
         </div>
 
@@ -63,36 +66,221 @@
     <!--About-->
 
     <div class="about" id="About">
-        <div class="about_main">
-
-            <div class="image">
-                <img src="static/image/why choose us.jpg" alt="Why Choose Us">
-            </div>
-
-            <div class="about_text">
-                <h1><span>About</span>Us</h1>
-                <h3>Why Choose us?</h3>
-                <ul>
-                    <li>Curated Quality: We handpick every product to ensure top-notch quality and value for your money.</li>
-                    <li>Fast &amp; Reliable Shipping: Get your orders delivered swiftly with tracking and hassle-free returns.</li>
-                    <li>Unbeatable Prices: Enjoy competitive pricing with exclusive deals and discounts.</li>
-                    <li>Secure Shopping: Shop with peace of mind with our encrypted payments and data protection.</li>
-                    <li>24/7 Customer Support: Our dedicated team is here to assist you anytime, anywhere. Choose our website for a shopping experience that's seamless, trustworthy, and delightful!</li>
-                </ul>
-            </div>
-
+        <!-- Floating Elements for Visual Interest -->
+        <div class="floating-elements">
+            <div class="floating-circle circle-1"></div>
+            <div class="floating-circle circle-2"></div>
+            <div class="floating-circle circle-3"></div>
+            <div class="floating-square square-1"></div>
+            <div class="floating-square square-2"></div>
         </div>
 
-        <a href="#" class="about_btn">Order Now</a>
+        <div class="about_main">
+            <div class="about_text">
+                <!-- Enhanced Header with Badge -->
+                <div class="section-badge">
+                    <i class="fa-solid fa-users"></i>
+                    <span>About Us</span>
+                </div>
+                
+                <h1><span>About</span>TechNova</h1>
+                <h3>Why Choose TechNova?</h3>
+                <p class="about_intro">
+                    At TechNova, we're passionate about technology and committed to bringing you the best tech products at unbeatable prices. We bridge the gap between innovation and accessibility, making cutting-edge technology available to everyone.
+                </p>
+                
+                <!-- Enhanced Features Grid with Animations -->
+                <div class="features_grid">
+                    <div class="feature_card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature_icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <h4>Authentic Products</h4>
+                        <p>100% genuine products directly from authorized distributors and brand partners.</p>
+                        <div class="feature_progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                    </div>
 
+                    <div class="feature_card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature_icon">
+                            <i class="fa-solid fa-rocket"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <h4>Latest Technology</h4>
+                        <p>Stay ahead with the newest releases and cutting-edge innovations in tech.</p>
+                        <div class="feature_progress">
+                            <div class="progress-bar" style="width: 95%"></div>
+                        </div>
+                    </div>
+
+                    <div class="feature_card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature_icon">
+                            <i class="fa-solid fa-award"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <h4>Expert Curation</h4>
+                        <p>Our tech experts carefully select each product to ensure quality and performance.</p>
+                        <div class="feature_progress">
+                            <div class="progress-bar" style="width: 98%"></div>
+                        </div>
+                    </div>
+
+                    <div class="feature_card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="feature_icon">
+                            <i class="fa-solid fa-tag"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <h4>Competitive Pricing</h4>
+                        <p>Best prices guaranteed with exclusive deals and seasonal offers.</p>
+                        <div class="feature_progress">
+                            <div class="progress-bar" style="width: 92%"></div>
+                        </div>
+                    </div>
+
+                    <div class="feature_card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="feature_icon">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <h4>Fast & Secure Delivery</h4>
+                        <p>Quick shipping with secure packaging and real-time tracking.</p>
+                        <div class="feature_progress">
+                            <div class="progress-bar" style="width: 96%"></div>
+                        </div>
+                    </div>
+
+                    <div class="feature_card" data-aos="fade-up" data-aos-delay="600">
+                        <div class="feature_icon">
+                            <i class="fa-solid fa-headset"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <h4>24/7 Tech Support</h4>
+                        <p>Our knowledgeable team provides technical assistance and product guidance anytime.</p>
+                        <div class="feature_progress">
+                            <div class="progress-bar" style="width: 99%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Enhanced Stats Section with Animation -->
+                <div class="stats_section" data-aos="fade-up" data-aos-delay="700">
+                    <div class="stats-bg-pattern"></div>
+                    <div class="stat_item">
+                        <div class="stat_number" data-count="50000">0</div>
+                        <div class="stat_label">Happy Customers</div>
+                        <div class="stat_icon"><i class="fa-solid fa-heart"></i></div>
+                    </div>
+                    <div class="stat_item">
+                        <div class="stat_number" data-count="1000">0</div>
+                        <div class="stat_label">Products</div>
+                        <div class="stat_icon"><i class="fa-solid fa-box"></i></div>
+                    </div>
+                    <div class="stat_item">
+                        <div class="stat_number" data-count="99.9">0</div>
+                        <div class="stat_label">Uptime</div>
+                        <div class="stat_icon"><i class="fa-solid fa-server"></i></div>
+                    </div>
+                    <div class="stat_item">
+                        <div class="stat_number" data-time="true">24/7</div>
+                        <div class="stat_label">Support</div>
+                        <div class="stat_icon"><i class="fa-solid fa-clock"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enhanced Image Section -->
+            <div class="image" data-aos="fade-left" data-aos-delay="300">
+                <div class="image-frame">
+                    <img src="static/image/why choose us.jpg" alt="Why Choose Us">
+                    <div class="image-border"></div>
+                </div>
+                <div class="image_overlay">
+                    <div class="overlay_content">
+                        <div class="overlay-icon">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4>Trusted by Tech Enthusiasts</h4>
+                        <p>Join thousands of satisfied customers who trust TechNova for their technology needs.</p>
+                        <div class="overlay-rating">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span>4.9/5 Customer Rating</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-cta-section" data-aos="fade-up" data-aos-delay="800">
+            <a href="#Products" class="about_btn">
+                <span class="btn-text">Explore Products</span>
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="btn-shine"></div>
+            </a>
+            
+            <!-- Trust Indicators -->
+            <div class="trust-indicators">
+                <div class="trust-item">
+                    <i class="fa-solid fa-medal"></i>
+                    <span>Premium Quality</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fa-solid fa-lock"></i>
+                    <span>Secure Shopping</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fa-solid fa-shipping-fast"></i>
+                    <span>Fast Delivery</span>
+                </div>
+            </div>
+        </div>
     </div>
 
 
 
-    <!--Menu-->
+    <!--Categories-->
 
-    <div class="menu" id="Menu">
-        <h1>Latest<span>Launches</span></h1>
+    <div class="categories" id="Categories">
+        <h1>Product<span>Categories</span></h1>
+        
+        <div class="category-grid">
+            <div class="category-card">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h3>Smartphones</h3>
+                <p>Latest flagship phones from top brands including Samsung, Apple, OnePlus, and more with cutting-edge features.</p>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-laptop"></i>
+                <h3>Laptops & Computers</h3>
+                <p>Gaming laptops, business notebooks, and workstations from HP, Asus, Lenovo, and other trusted brands.</p>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-headphones"></i>
+                <h3>Audio Devices</h3>
+                <p>Premium headphones, earbuds, and speakers from Apple, Boat, Sony, and other audio specialists.</p>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Smartwatches</h3>
+                <p>Health and fitness tracking smartwatches from Apple, Samsung, and other leading wearable tech brands.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Products-->
+
+    <div class="menu" id="Products">
+        <h1>Featured<span>Products</span></h1>
 
         <div class="menu_box">
             <div class="menu_card">
@@ -110,14 +298,7 @@
                     <p>
                         12GB RAM | 256GB ROM | 17.53cm (6.9 inch) Quad HD+ Display | 200MP +50MP+50MP+10MP | 12MP Front Camera </p>
                     <h3>Starting from ₹1,29,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -138,14 +319,7 @@
                         12GB RAM | 256GB ROM | 16.05cm (6.32 inch) Display | 50MP Rear Camera
                     </p>
                     <h3>Starting from ₹53,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -165,14 +339,7 @@
                     <p>12GB RAM | 256GB ROM | 17.35cm (6.83 inch) Display | 50MP Rear Camera | 20MP Front Camera | 8s Gen 4 Processor
                     </p>
                     <h3>Starting from ₹31,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -190,17 +357,10 @@
                 <div class="menu_info">
                     <h2>iPhone 16</h2>
                     <p>
-                        A revitalizing concoction of espresso and hot water, delivering a rich and robust coffee experience.
+                        Latest A18 Bionic chip, 6.1-inch Super Retina XDR display, 48MP main camera with 2x Telephoto zoom, and all-day battery life.
                     </p>
-                    <h3>Starting from ₹1,29,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                    <h3>Starting from ₹79,999</h3>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -218,16 +378,10 @@
                 <div class="menu_info">
                     <h2>Asus TUF Gaming</h2>
                     <p>
-                        A delightful balance of espresso and a dollop of frothy milk, offering a nuanced flavor profile with a touch of sweetness. </p>
-                    <h3>Starting from ₹1,29,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                        Powerful gaming laptop with AMD Ryzen 7 processor, NVIDIA RTX 4060 graphics, 16GB RAM, and military-grade durability.
+                    </p>
+                    <h3>Starting from ₹85,999</h3>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -245,17 +399,10 @@
                 <div class="menu_info">
                     <h2>HP Victus Gaming</h2>
                     <p>
-                        Indulge in decadence with espresso, steamed milk, and chocolate syrup, crowned with whipped cream for a delightful treat.
+                        High-performance gaming laptop featuring Intel Core i5, NVIDIA GeForce RTX graphics, and advanced cooling technology.
                     </p>
-                    <h3>Starting from ₹1,29,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                    <h3>Starting from ₹65,999</h3>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -273,17 +420,10 @@
                 <div class="menu_info">
                     <h2>HP Pavilion</h2>
                     <p>
-                        A heavenly marriage of espresso and velvety vanilla ice cream, where warmth meets coolness in a blissful union.
+                        Versatile laptop perfect for work and entertainment with Intel Core processor, Full HD display, and sleek design.
                     </p>
-                    <h3>Starting from ₹1,29,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                    <h3>Starting from ₹45,999</h3>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -300,17 +440,11 @@
 
                 <div class="menu_info">
                     <h2>Lenovo Yoga</h2>
-                    <p>Experience the perfect harmony of espresso and velvety microfoam, delivering a smooth and luxurious texture with every sip.
+                    <p>
+                        Premium 2-in-1 convertible laptop with touchscreen, 360° hinge, Intel Evo platform, and all-day battery life.
                     </p>
-                    <h3>Starting from ₹1,29,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                    <h3>Starting from ₹75,999</h3>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -328,16 +462,10 @@
                 <div class="menu_info">
                     <h2>Boat Airdopes 161</h2>
                     <p>
-                        Rich and aromatic, finely ground coffee brewed to perfection, offering an invigorating experience. </p>
-                    <h3>Starting from ₹1,29,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                        True wireless earbuds with 40-hour playback, IPX5 water resistance, and clear voice calling technology.
+                    </p>
+                    <h3>Starting from ₹1,999</h3>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -355,16 +483,10 @@
                 <div class="menu_info">
                     <h2>Apple AirPods 4</h2>
                     <p>
-                        Enjoy the full-bodied richness of coffee brewed in a French press, unlocking layers of flavor with each press of the plunger. </p>
-                    <h3>Starting from ₹1,29,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                        Latest generation AirPods with spatial audio, adaptive transparency, and personalized volume control.
+                    </p>
+                    <h3>Starting from ₹12,999</h3>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -382,16 +504,10 @@
                 <div class="menu_info">
                     <h2>Apple Watch Series 7</h2>
                     <p>
-                        A refreshing and smooth alternative, steeped slowly in cold water for hours to extract the full-bodied flavor without the bitterness. </p>
-                    <h3>Starting from ₹1,29,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                        Advanced health monitoring, ECG app, blood oxygen sensor, and always-on Retina display in a durable design.
+                    </p>
+                    <h3>Starting from ₹41,999</h3>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -409,16 +525,10 @@
                 <div class="menu_info">
                     <h2>Samsung Galaxy Watch 6</h2>
                     <p>
-                        Elevate your coffee experience with the creamy texture and cascading bubbles of nitrogen-infused cold brew. </p>
-                    <h3>Starting from ₹1,29,999</h3>
-                    <!-- <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div> -->
-                    <a href="#" class="menu_btn">Order Now</a>
+                        Advanced smartwatch with health monitoring, sleep tracking, GPS, and comprehensive fitness features in a stylish design.
+                    </p>
+                    <h3>Starting from ₹28,999</h3>
+                    <a href="#" class="menu_btn">Buy Now</a>
                 </div>
 
             </div>
@@ -503,10 +613,10 @@
 
 
 
-    <!--Review-->
+    <!--Reviews-->
 
     <div class="review" id="Review">
-        <h1>Customer<span>Review</span></h1>
+        <h1>Customer<span>Reviews</span></h1>
 
         <div class="review_box">
             <div class="review_card">
@@ -534,7 +644,7 @@
                     </div>
 
                     <p>
-                        I stumbled upon Brew Haven while exploring the charming streets of Dehradun, and what a delightful find it was! From the moment I stepped inside, I was enveloped in the warm and inviting atmosphere. The aroma of freshly brewed coffee wafted through the air, instantly awakening my senses and drawing me to the cozy seating area. I ordered a cappuccino, and it was a work of art in a cup – smooth, velvety, with just the right balance of espresso and creamy foam.
+                        I've been shopping at TechNova for over a year now, and they never disappoint! Recently purchased the Samsung S25 Ultra and the ordering process was seamless. The phone arrived within 2 days, perfectly packaged and authentic. Their customer support team helped me choose the right specifications for my needs. The prices are competitive and the quality is always genuine. TechNova has become my go-to destination for all tech purchases!
                     </p>
 
                 </div>
@@ -566,7 +676,7 @@
                     </div>
 
                     <p>
-                        As a self-proclaimed coffee aficionado, I'm always on the hunt for the perfect cup of joe, and I can confidently say that Brew Haven exceeds all expectations. From the moment I entered, I was greeted with a smile and the comforting aroma of freshly ground beans. I opted for their signature flat white, and it was nothing short of perfection – rich, velvety, and expertly crafted. What sets Brew Haven apart is not just the quality of their coffee but also the sense of community .
+                        As a tech enthusiast and gamer, I'm always searching for the latest gadgets and best deals. TechNova has consistently delivered on both fronts! Recently bought the Asus TUF Gaming laptop and couldn't be happier. The product arrived exactly as described, with all original accessories and warranty cards. Their tech support team provided excellent guidance on specifications and even helped with initial setup. The pricing was unbeatable compared to other retailers. Highly recommend TechNova for authentic tech products!
                     </p>
 
                 </div>
@@ -598,7 +708,7 @@
                     </div>
 
                     <p>
-                        Brew Haven is more than just a coffee shop – it's a sanctuary in the midst of the bustling city. From the moment I stepped inside, I felt a sense of calm wash over me, a welcome respite from the chaos outside. The décor is charming and eclectic, with cozy nooks and comfy chairs beckoning you to stay awhile. I ordered a mocha, and it was a decadent treat – rich, creamy, with just the right amount of chocolatey goodness. What truly sets Brew Haven apart is the genuine warmth of the staff.
+                        TechNova is more than just an online store – it's a trusted tech partner! I've purchased multiple items including my iPhone 16 and Apple Watch Series 7, and each experience has been flawless. The website is user-friendly, product descriptions are detailed and accurate, and the checkout process is secure. What impresses me most is their after-sales service and warranty support. When I had a question about my Apple Watch setup, their technical team provided step-by-step guidance. TechNova has earned my loyalty with their genuine products and exceptional service.
                     </p>
 
                 </div>
@@ -632,7 +742,7 @@
                     </div>
 
                     <p>
-                        I've been a regular at Brew Haven for months now, and it's become my home away from home. There's something truly special about this place – from the moment you walk in, you're enveloped in a sense of warmth and belonging. The smell of freshly brewed coffee instantly lifts your spirits, and the friendly faces behind the counter make you feel like part of the family. I usually order a classic espresso, and it never disappoints – bold, flavorful, and perfectly brewed every time.
+                        I discovered TechNova through a friend's recommendation, and it has become my go-to tech store! As a college student, budget is important, and TechNova offers excellent deals without compromising on quality. I recently purchased the OnePlus 13s and Boat Airdopes, both at amazing prices. The products arrived quickly, and everything was brand new with proper warranties. The customer service team is responsive and knowledgeable. While there's always room for improvement, TechNova consistently delivers value and authentic products that students like me can trust.
                     </p>
 
                 </div>
@@ -645,10 +755,10 @@
 
 
 
-    <!--Order-->
+    <!--Contact-->
 
-    <div class="order" id="Order">
-        <h1><span>Order</span>Now</h1>
+    <div class="order" id="Contact">
+        <h1><span>Contact</span>Us</h1>
 
         <div class="order_main">
 
@@ -659,36 +769,37 @@
             <form action="#">
 
                 <div class="input">
-                    <p>Name</p>
-                    <input type="text" placeholder="you name">
+                    <p>Full Name</p>
+                    <input type="text" placeholder="Your full name">
                 </div>
 
                 <div class="input">
-                    <p>Email</p>
-                    <input type="email" placeholder="you email">
+                    <p>Email Address</p>
+                    <input type="email" placeholder="your.email@example.com">
                 </div>
 
                 <div class="input">
-                    <p>Number</p>
-                    <input type="tel" placeholder="you number">
+                    <p>Phone Number</p>
+                    <input type="tel" placeholder="Your phone number">
                 </div>
 
                 <div class="input">
-                    <p>How Much</p>
-                    <input type="number" placeholder="how many order">
+                    <p>Subject</p>
+                    <input type="text" placeholder="Inquiry subject">
                 </div>
 
                 <div class="input">
-                    <p>You Order</p>
-                    <input type="text" placeholder="food name">
+                    <p>Product Interest</p>
+                    <input type="text" placeholder="Which product are you interested in?">
                 </div>
 
                 <div class="input">
-                    <p>Address</p>
-                    <input type="text" placeholder="you Address">
+                    <p>Message</p>
+                    <textarea placeholder="Your message or questions" rows="4" style="width: 300px; padding: 10px; border: 2px solid #cccccc; background: #eeeeee; outline: none; border-radius: 3px; resize: vertical; font-family: inherit;"></textarea>
+                </div>
                 </div>
 
-                <button type="submit" class="order_btn">Order Now</button>
+                <button type="submit" class="order_btn">Send Message</button>
 
             </form>
 
@@ -708,13 +819,13 @@
                 <img src="static/image/sarah.png" alt="Sarah">
 
                 <div class="info">
-                    <h2 class="name">Barista - Sarah</h2>
-                    <p class="bio">Crafting perfection in every cup with a smile.</p>
+                    <h2 class="name">Product Manager - Sarah</h2>
+                    <p class="bio">Curating the best tech products for our customers.</p>
 
                     <div class="team_icon">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
                     </div>
 
                 </div>
@@ -725,13 +836,13 @@
                 <img src="static/image/Alex.jpg" alt="Alex">
 
                 <div class="info">
-                    <h2 class="name">Culinary - Alex</h2>
-                    <p class="bio"> Infusing creativity into every dish.</p>
+                    <h2 class="name">Tech Specialist - Alex</h2>
+                    <p class="bio">Providing expert technical guidance and support.</p>
 
                     <div class="team_icon">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
                     </div>
 
                 </div>
@@ -742,13 +853,13 @@
                 <img src="static/image/emily.jpg" alt="Emily">
 
                 <div class="info">
-                    <h2 class="name">Hospitality - Emily</h2>
-                    <p class="bio">Spreading warmth and hospitality with every interaction.</p>
+                    <h2 class="name">Customer Success - Emily</h2>
+                    <p class="bio">Ensuring exceptional customer experience and satisfaction.</p>
 
                     <div class="team_icon">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
                     </div>
 
                 </div>
@@ -759,13 +870,13 @@
                 <img src="static/image/james.jpg" alt="James">
 
                 <div class="info">
-                    <h2 class="name">Ambiance - James</h2>
-                    <p class="bio">Setting the stage for cozy conversations and memorable moments.</p>
+                    <h2 class="name">Operations Manager - James</h2>
+                    <p class="bio">Streamlining operations for fast and reliable delivery.</p>
 
                     <div class="team_icon">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
                     </div>
 
                 </div>
@@ -783,36 +894,38 @@
         <div class="footer_main">
 
             <div class="footer_tag">
-                <h2>Location</h2>
-                <p>Sri Lanka</p>
-                <p>USA</p>
-                <p>India</p>
-                <p>Japan</p>
-                <p>Italy</p>
+                <h2>Service Areas</h2>
+                <p>All India</p>
+                <p>International Shipping</p>
+                <p>Major Cities</p>
+                <p>Express Delivery</p>
+                <p>COD Available</p>
             </div>
 
             <div class="footer_tag">
-                <h2>Quick Link</h2>
+                <h2>Quick Links</h2>
                 <p>Home</p>
                 <p>About</p>
-                <p>Menu</p>
-                <p>Gallary</p>
-                <p>Order</p>
+                <p>Products</p>
+                <p>Categories</p>
+                <p>Contact</p>
             </div>
 
             <div class="footer_tag">
-                <h2>Contact</h2>
-                <p>+94 12 3456 789</p>
-                <p>+94 25 5568456</p>
-                <p>akash@gmail.com</p>
-                <p>coffeeshop@gmail.com</p>
+                <h2>Contact Info</h2>
+                <p>+91 98765 43210</p>
+                <p>+91 87654 32109</p>
+                <p>support@technova.com</p>
+                <p>sales@technova.com</p>
             </div>
 
             <div class="footer_tag">
-                <h2>Our Service</h2>
+                <h2>Our Services</h2>
                 <p>Fast Delivery</p>
-                <p>Easy Payments</p>
-                <p>24 x 7 Service</p>
+                <p>Secure Payments</p>
+                <p>24/7 Support</p>
+                <p>Easy Returns</p>
+                <p>Warranty Protection</p>
             </div>
 
             <div class="footer_tag">
@@ -825,7 +938,7 @@
 
         </div>
 
-        <p class="end">Well Well <span><i class="fa-solid fa-face-grin"></i> Akash Chauhan</span></p>
+        <p class="end">Made with ❤️ by <span><i class="fa-solid fa-face-grin"></i> TechNova Team</span></p>
 
     </footer>
 
@@ -908,6 +1021,80 @@
         });
     </script>
 
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+
+        // Counter Animation for Stats
+        function animateCounter(element, target, duration = 2000) {
+            const start = 0;
+            const increment = target / (duration / 16);
+            let current = start;
+            
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                
+                if (element.dataset.count) {
+                    if (element.dataset.time) {
+                        element.textContent = '24/7';
+                    } else {
+                        const value = Math.floor(current);
+                        if (target >= 1000) {
+                            if (target === 50000) {
+                                element.textContent = (value / 1000).toFixed(0) + 'K+';
+                            } else {
+                                element.textContent = (value / 1000).toFixed(0) + 'K+';
+                            }
+                        } else if (target === 99.9) {
+                            element.textContent = current.toFixed(1) + '%';
+                        } else {
+                            element.textContent = value + '+';
+                        }
+                    }
+                }
+            }, 16);
+        }
+
+        // Trigger counter animation when stats section is visible
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumbers = entry.target.querySelectorAll('.stat_number[data-count]');
+                    statNumbers.forEach(stat => {
+                        if (!stat.dataset.time) {
+                            const target = parseFloat(stat.dataset.count);
+                            animateCounter(stat, target);
+                        }
+                    });
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe stats section when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            const statsSection = document.querySelector('.stats_section');
+            if (statsSection) {
+                statsObserver.observe(statsSection);
+            }
+        });
+    </script>
 
 </body>
 

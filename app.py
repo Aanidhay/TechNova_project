@@ -39,15 +39,15 @@ Latest Launches (examples from homepage):
 - Samsung S25 Ultra Series: 12GB RAM | 256GB ROM | 17.53cm (6.9 inch) Quad HD+ Display | 200MP +50MP+50MP+10MP | 12MP Front Camera. Starting from ₹1,29,999
 - Oneplus 13s: 12GB RAM | 256GB ROM | 16.05cm (6.32 inch) Display | 50MP Rear Camera. Starting from ₹53,999
 - Poco F7 5G: 12GB RAM | 256GB ROM | 17.35cm (6.83 inch) Display | 50MP Rear Camera | 20MP Front Camera | 8s Gen 4 Processor. Starting from ₹31,999
-- iPhone 16: A revitalizing concoction of espresso and hot water, delivering a rich and robust coffee experience. Starting from ₹1,29,999
-- Asus TUF Gaming: A delightful balance of espresso and a dollop of frothy milk, offering a nuanced flavor profile with a touch of sweetness. Starting from ₹1,29,999
-- HP Victus Gaming: Indulge in decadence with espresso, steamed milk, and chocolate syrup, crowned with whipped cream for a delightful treat. Starting from ₹1,29,999
-- HP Pavilion: A heavenly marriage of espresso and velvety vanilla ice cream, where warmth meets coolness in a blissful union. Starting from ₹1,29,999
-- Lenovo Yoga: Experience the perfect harmony of espresso and velvety microfoam, delivering a smooth and luxurious texture with every sip. Starting from ₹1,29,999
-- Boat Airdopes 161: Rich and aromatic, finely ground coffee brewed to perfection, offering an invigorating experience. Starting from ₹1,29,999
-- Apple AirPods 4: Enjoy the full-bodied richness of coffee brewed in a French press, unlocking layers of flavor with each press of the plunger. Starting from ₹1,29,999
-- Apple Watch Series 7: A refreshing and smooth alternative, steeped slowly in cold water for hours to extract the full-bodied flavor without the bitterness. Starting from ₹1,29,999
-- Samsung Galaxy Watch 6: Elevate your coffee experience with the creamy texture and cascading bubbles of nitrogen-infused cold brew. Starting from ₹1,29,999
+- iPhone 16: Latest A18 Bionic chip, 6.1-inch Super Retina XDR display, 48MP main camera with 2x Telephoto zoom, and all-day battery life. Starting from ₹79,999
+- Asus TUF Gaming: Powerful gaming laptop with AMD Ryzen 7 processor, NVIDIA RTX 4060 graphics, 16GB RAM, and military-grade durability. Starting from ₹85,999
+- HP Victus Gaming: High-performance gaming laptop featuring Intel Core i5, NVIDIA GeForce RTX graphics, and advanced cooling technology. Starting from ₹65,999
+- HP Pavilion: Versatile laptop perfect for work and entertainment with Intel Core processor, Full HD display, and sleek design. Starting from ₹45,999
+- Lenovo Yoga: Premium 2-in-1 convertible laptop with touchscreen, 360° hinge, Intel Evo platform, and all-day battery life. Starting from ₹75,999
+- Boat Airdopes 161: True wireless earbuds with 40-hour playback, IPX5 water resistance, and clear voice calling technology. Starting from ₹1,999
+- Apple AirPods 4: Latest generation AirPods with spatial audio, adaptive transparency, and personalized volume control. Starting from ₹12,999
+- Apple Watch Series 7: Advanced health monitoring, ECG app, blood oxygen sensor, and always-on Retina display in a durable design. Starting from ₹41,999
+- Samsung Galaxy Watch 6: Advanced smartwatch with health monitoring, sleep tracking, GPS, and comprehensive fitness features in a stylish design. Starting from ₹28,999
 
 (Descriptions for some products appear to be placeholders; focus on the tech specs and product names for accurate info.)
 
